@@ -31,6 +31,9 @@ public class NoiseAlert extends Activity  {
         /* sound data source */
         private SoundMeter mSensor;
         
+        private int a;
+        private int b;
+        
        /****************** Define runnable thread again and again detect noise *********/
         
         private Runnable mSleepTask = new Runnable() {
